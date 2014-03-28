@@ -1,0 +1,126 @@
+* {
+margin:0px;
+}
+img {border-radius:3px;}
+#cuerpo {
+	margin:0px;
+	background-image:url('../img/rojoOscuro.jpg');
+	background-size:100%;
+	width:100%;
+	height:643px;
+	/*border:1px solid red;*/
+	}
+#contentCuerpo {
+	
+	width:900px;
+	height:600px;
+	margin:auto;
+	
+	border-radius:20px;
+	background-image:url('../img/fondooo.jpg');
+	background-size:100%;
+	border:1px solid rgba(0,0,0,0.3);
+}
+
+#tapete {
+	width:800px;
+	height:430px;
+	/*border:1px solid yellow;*/
+	margin-top:140px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#cartas {
+	width:410px;
+	height:100%;
+	margin-left:90px;
+	/*border:1px solid red;*/
+	float:left;
+}
+#monton {
+	width:270px;
+	height:170px;
+	/*border:1px solid blue;*/
+	float:left;
+	float:right;
+
+}
+#botones {
+	width:270px;
+	height:220px;
+	/*border:1px dashed yellow;*/
+	float:right;
+	margin-top:30px;
+	margin-right:10px;
+	
+
+}
+#crupier {
+	margin-top:15px;
+	/*border:1px solid gray;*/
+	width:100%;
+	height:150px;
+}
+#botones div {
+	width:100px;
+	height:35px;
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	border-radius:3px;
+	background-color:rgba(46,23,67,0.2);
+}
+
+#jugador{
+	/*border:1px solid black;*/
+	margin-top:100px;
+	/*border:1px solid gray;*/
+	width:100%;
+	height:150px;
+}
+.transicion {
+transition: 0.3s linear;
+}
+#pedir {
+background-image:url('../img/pedir.jpg');
+
+}
+
+#pedir:hover{
+background-image:url('../img/pedirhover.jpg');
+}
+
+#plantarse{
+background-image:url('../img/plantarse.jpg');
+
+}
+#plantarse:hover{
+background-image:url('../img/plantarsehover.jpg');
+
+}
+#aumentar{
+background-image:url('../img/aumentar.jpg');
+}
+
+#aumentar:hover{
+background-image:url('../img/aumentarhover.jpg');
+}
+
+#disminuir {
+background-image:url('../img/disminuir.jpg');
+}
+
+#disminuir:hover {
+background-image:url('../img/disminuirhover.jpg');
+}  
+#confirmar {
+background-image:url('../img/confirmar.jpg');
+}
+
+#confirmar:hover {
+background-image:url('../img/confirmarhover.jpg');
+} 
+#confirmar {
+	width:212px !important;
+	height:45px !important;
+}
